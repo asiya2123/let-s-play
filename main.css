@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('p.jpg');
+    background-size: cover;
+    background-repeat:no-repeat ; 
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+header{
+    height: 80px;
+    background: linear-gradient(to left, #956af2, #9606ef);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.menu-bar i{
+    display: none;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.icon span{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+}
+.links a{
+    text-decoration: none;
+    line-height: 80px;
+    font-size: 1.1rem;
+    color: white;
+    padding-right: 20px;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 2.5rem;
+    background-color: rgba(158, 57, 235, 0.316);
+}
+.game-section{
+    display: flex;
+    justify-content: center;
+  /*  background-color: rgba(180, 115, 230, 0.432);*/
+}
+.games{
+    margin-top: 70px;
+    border-radius: 10px;
+}
+button a{
+    text-decoration: none;
+}
+.games button{
+    margin: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(228, 147, 237);
+    box-shadow: 2px 3px 3px 2px rgb(189, 87, 226);
+    border: 3px rgb(208, 132, 185);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.games button:hover{
+    background-color: blueviolet;
+    box-shadow: 2px 3px 3px 2px rgb(58, 3, 78);
+}
+.games button:active{
+    box-shadow: 0 0 0 0;
+}
+.games button a{
+    font-size: 1rem;
+    color:black;
+    /* transform:rotate(360deg); */
+}
+.name{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 10px;
+}
+.name span{
+    color: white;
+    /* background-color: black; */
+    padding: 10px;
+    border-radius: 20px;
+}
+.tictactoe{
+    background-image: url(tictactoe.png);
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Rock-Paper-Scissors{
+    background-image: url(image2.png);
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coming-soon{
+    background-image: url(unlock.png);
+    background-size: contain;
+    opacity: 0.7;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+     background-color: rgba(192, 140, 232, 0.636);
+}
+.features-section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    background-color: rgba(212, 174, 242, 0.636);
+}
+.Istructions-section{
+    background-color: rgba(187, 141, 222, 0.636);
+    display: flex;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.message{
+    margin-top: 50px;
+}
+.message p{
+    font-size: 1.5rem;
+    color: rgb(2, 2, 2);
+    padding: 20px;
+}
+.section{
+   background-color: rgba(192, 140, 232, 0.636);
+    display: flex;
+    justify-content: space-between;
+}
+.Contact-section{
+     background-color: rgba(180, 115, 230, 0.636);
+}
+.contact-info{
+    text-align: left;
+    width:500px;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    padding:3rem;
+}
+.contact{
+    margin-top:2rem;
+    text-align: center;
+}
+.contact-info label{
+    line-height: 2rem;
+    font-size: 1.3rem;
+
+} 
+.contact-info input,textarea{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+#submit-msg{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(159, 42, 248);
+    border: 3px rgb(132, 0, 255);
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px 2px rgb(94, 4, 163);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+#submit-msg:active{
+    box-shadow:  0 0 0 0;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.581);
+    border-top: 3px solid black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.social{
+    margin: 30px;
+    text-align: center;
+}
+.social h2{
+    text-decoration: underline;
+    font-size: 1.9rem;
+}
+.social i{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 50px;
+}
+.fa-youtube{
+    color: red;
+    background-color: white;
+}
+.fa-youtube:hover{
+    color: white;
+    background-color: red;
+}
+.fa-instagram{
+    color: purple;
+    background-color: white;
+}
+.fa-instagram:hover{
+    background-color: purple;
+    color: white;
+}
+.fa-linkedin-in{
+    color: blue;
+    background-color: white;
+}
+.fa-linkedin-in:hover{
+    color: white;
+    background-color: blue;
+}
+.fa-github{
+    color: black;
+    background-color: white;
+}
+.fa-github:hover{
+    color: white;
+    background-color: black;
+}
+
+@media only screen and (max-width:650px) {
+  /*  body{
+        background-image: url(mobileview.png);
+    }*/
+      header img{
+    width: 90px;
+    object-fit: cover;
+    margin-left: 10px;
+   }
+   .links {
+    display: none;
+    }
+   .bg{
+    background-color: rgba(124, 53, 168, 0.914);
+    border: 0.5px solid white;
+    border-radius: 10px;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    }
+    .bg i{
+        color: white;   
+        margin: 5px;
+        padding: 10px;
+    }
+    header a{
+    display: flex;
+    flex-direction: column;
+    color: white;    
+    border-bottom: 1px solid white;
+    font-size: 0.8rem;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    }
+    #mode-icon{ 
+    border-bottom: none;
+    }
+    .menu-bar i{
+    display: block;
+    color:white;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    font-size: 1.2rem;
+    }
+    .icon img{
+        width: 30px;
+        height: 30px;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    #contct-link{
+        border-bottom: none;
+    }
+    .game-section{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .games{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        width: 90%;
+        height: 250px;
+    }
+    .features-section{
+    display: flex;
+    flex-direction: column;
+    }
+    .section{
+        display: block;
+    }
+    .contact-info{
+        width: auto;
+    }
+    .message{
+        margin-top: 0;
+    }
+    .message p{
+        font-size: 1.2rem;
+    }
+    .social i{
+        font-size: 1.2rem;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+
+
+

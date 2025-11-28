@@ -1,0 +1,72 @@
+body{
+    background-image: url('image1.png');
+    background-size: cover;
+   
+    background-repeat:no-repeat ;
+     background-position: center center;
+    background-attachment: fixed;
+    
+   
+}
+button {
+    position: fixed;
+    top:400px;
+    left:200px;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    animation: up-down .6s normal infinite;
+}
+@keyframes up-down{
+    from{
+    transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+button:hover{
+         transition: all 1s ease-in-out 0s;
+     transform:rotate(360deg);
+     
+
+}
+strong{
+    background: transparent;
+    width: 500px;
+    border: 1px solid black;
+    color:white;
+   
+}
+@media only screen and (max-width:780px) {
+    body{
+    background-image: url('mobileview.png');
+    background-size: cover;
+   
+    background-repeat:no-repeat ;
+    margin: 5rem;
+    padding: 1rem; 
+}
+
+
+}
+@media only screen and (max-width:350px) {
+    body{
+    background-image: url('mobileview.png');
+    background-size: cover;
+   
+    background-repeat:no-repeat ;
+    margin: 5rem;
+    padding: 1rem; 
+}
+button {
+    position: absolute;
+    top:150px;
+    left:100px;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    animation: up-down .6s normal infinite;
+}
+
+}
