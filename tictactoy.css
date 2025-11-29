@@ -24,7 +24,8 @@ body {
 
 h1{
   padding: 20px;
-  background-color: #ec7dbe;
+  background-color: #081b31;
+ /* background-color: #ec7dbe;*/
   color: white;
 }
 
@@ -60,10 +61,11 @@ h1{
   padding: 1rem;
   font-size: 1.25rem;
   background-color:#d8809d;
+  background-color: #081b31;
   color: #fff;
   border-radius: 1rem;
   border: none;
-  box-shadow: 2px 2px 2px 2px #c2426d;
+  box-shadow: 2px 2px 2px 2px #04000f;
 }
 
 #reset-btn:active{

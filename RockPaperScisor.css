@@ -90,6 +90,17 @@ img {
     .nav{
         height: 50px;
     }
+    .nav-bar h1{
+      font-size: 2rem;
+    }
+    a i{
+  color: white;
+  font-size: 2rem;
+    position: fixed;
+  left: 0;
+  top: 1.4rem;
+
+}
     .choices{
         gap: 0;
         display: flex;
@@ -101,10 +112,20 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
+    .choice:hover {
+  cursor: pointer;
+  background-color:white;
+ /* border: 1px solid #081b31;*/
+ }
+    
     img{
         width: 100px;
         height: 100px;
+    }
+    img:hover{
+      border: 1px solid #081b31;
     }
     .score{
         margin-top: 1rem;
@@ -121,4 +142,8 @@ img {
     span{
         margin-top: 3rem;
     }
+}
+#msg {
+  background-color: #081b31;
+  font-size: smaller;
 }

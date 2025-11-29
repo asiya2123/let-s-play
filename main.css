@@ -55,7 +55,6 @@ h1{
 .game-section{
     display: flex;
     justify-content: center;
-  /*  background-color: rgba(180, 115, 230, 0.432);*/
 }
 .games{
     margin-top: 70px;
@@ -88,7 +87,6 @@ button a{
 .games button a{
     font-size: 1rem;
     color:black;
-    /* transform:rotate(360deg); */
 }
 .name{
     margin-top: 20px;
@@ -98,12 +96,11 @@ button a{
 }
 .name span{
     color: white;
-    /* background-color: black; */
     padding: 10px;
     border-radius: 20px;
 }
 .tictactoe{
-    background-image: url(tictactoe.png);
+    background-image: url(tic.jpg);
     background-size: contain;
     width: 150px;
     height: 150px;
@@ -136,16 +133,16 @@ button a{
 .game-section{
     display: grid;
     grid-template-columns: auto auto auto;
-     background-color: rgba(192, 140, 232, 0.636);
+     background-color: rgba(151, 35, 239, 0.636);
 }
 .features-section{
     display: flex;
     flex-direction: row-reverse;
     justify-content:space-between;
-    background-color: rgba(212, 174, 242, 0.636);
+    background-color: rgba(153, 41, 238, 0.636);
 }
 .Istructions-section{
-    background-color: rgba(187, 141, 222, 0.636);
+    background-color:rgba(152, 33, 243, 0.636);
     display: flex;
 }
 .image{
@@ -163,12 +160,12 @@ button a{
     padding: 20px;
 }
 .section{
-   background-color: rgba(192, 140, 232, 0.636);
+   background-color: rgba(166, 77, 234, 0.636);
     display: flex;
     justify-content: space-between;
 }
 .Contact-section{
-     background-color: rgba(180, 115, 230, 0.636);
+     background-color: rgba(152, 40, 237, 0.636);
 }
 .contact-info{
     text-align: left;
@@ -267,9 +264,6 @@ footer{
 }
 
 @media only screen and (max-width:650px) {
-  /*  body{
-        background-image: url(mobileview.png);
-    }*/
       header img{
     width: 90px;
     object-fit: cover;
